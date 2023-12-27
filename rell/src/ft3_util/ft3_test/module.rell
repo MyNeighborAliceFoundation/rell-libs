@@ -1,0 +1,11 @@
+@test module;
+
+namespace ft3 {
+	import lib.ft3.core.*;
+	import lib.ft3.operations.dev_op_asset;
+	import lib.ft3.operations.dev_op_account;
+	import lib.ft3.account.operations;
+	import lib.ft3.core.operations.transfer;
+	import lib.ft3.operations.dev_op_balance;
+	import lib.ft3.operations.dev_op_rate_limit;
+}
