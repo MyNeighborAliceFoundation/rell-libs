@@ -1,0 +1,7 @@
+function profanity_filter(string: text) {
+    val profanity_set = words.profanity_words();
+    if (string in profanity_set) {
+    	return false;
+    }
+    return true;
+}
